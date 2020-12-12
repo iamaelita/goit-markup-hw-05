@@ -323,7 +323,7 @@ inherited from .page and .h3  */
   padding-bottom: 94px;
 }
 
-.what-we-do-links {
+.what-we-do-list {
   display: flex;
 }
 
@@ -332,20 +332,40 @@ inherited from .page and .h3  */
   margin-bottom: 50px;
 }
 
-.what-we-do-link {
+.what-we-do-item {
+  position: relative;
+
   width: 370px;
   height: 294px;
-
-  transition: color 250ms var(--timing-function);
-}
-
-.what-we-do-link:hover,
-.what-we-do-link:focus {
-  color: var(--accent-text-color);
 }
 
 .what-we-do-link:not(:last-child) {
   margin-right: 30px;
+}
+
+.what-we-do-label {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  padding-top: 27px;
+  padding-bottom: 27px;
+
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.label-text {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--main-white);
 }
 
 /*=========НАША КОМАНДА===========
