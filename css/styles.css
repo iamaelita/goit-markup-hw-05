@@ -400,7 +400,7 @@ inherited from .page and .h3  */
   height: 294px;
 }
 
-.what-we-do-link:not(:last-child) {
+.what-we-do-item:not(:last-child) {
   margin-right: 30px;
 }
 
